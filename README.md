@@ -1,4 +1,6 @@
-### 🤗 Some commands for my absent-minded brain:
+## 🤗 Some commands for my absent-minded brain:
+
+### Create user:
 
 ```
 mac@ngoc ~ % /usr/local/mysql/bin/mysql -u root -p 
@@ -11,4 +13,12 @@ mysql> grant all on nestjs_mysql_tutorial.* to 'ngocdb';
 mac@ngoc ~ % /usr/local/mysql/bin/mysql -u ngocdb -p
 
 mysql> create database nestjs_mysql_tutorial;
+```
+
+### Use database:
+
+```
+mysql> use nestjs_mysql_tutorial;
+
+mysql> show tables;
 ```
