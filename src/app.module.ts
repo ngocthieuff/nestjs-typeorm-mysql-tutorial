@@ -9,7 +9,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       type: 'mysql',
       host: 'localhost',
       port: 3306,
-      username: 'ngocthieu',
+      username: 'ngocdb',
       password: 'password',
       database: 'nestjs_mysql_tutorial',
       entities: [],
