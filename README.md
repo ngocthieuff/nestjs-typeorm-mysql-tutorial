@@ -33,3 +33,24 @@ mysql> describe users;
 | authStrategy | varchar(255) | YES  |     | NULL    |                |
 +--------------+--------------+------+-----+---------+----------------+
 ```
+
+### Generate:
+
+```
+npx @nestjs/cli g module user
+
+CREATE src/user/user.module.ts (81 bytes)
+UPDATE src/app.module.ts (658 bytes)
+
+npx @nestjs/cli g controller /user/controllers/users
+
+CREATE src/user/controllers/users/users.controller.spec.ts (485 bytes)
+CREATE src/user/controllers/users/users.controller.ts (99 bytes)
+UPDATE src/user/user.module.ts (187 bytes)
+
+npx @nestjs/cli g service /user/services/users
+
+CREATE src/user/services/users/users.service.spec.ts (453 bytes)
+CREATE src/user/services/users/users.service.ts (89 bytes)
+UPDATE src/user/user.module.ts (279 bytes)
+```
