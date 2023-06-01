@@ -21,4 +21,15 @@ mysql> create database nestjs_mysql_tutorial;
 mysql> use nestjs_mysql_tutorial;
 
 mysql> show tables;
+
+mysql> describe users;
++--------------+--------------+------+-----+---------+----------------+
+| Field        | Type         | Null | Key | Default | Extra          |
++--------------+--------------+------+-----+---------+----------------+
+| id           | int          | NO   | PRI | NULL    | auto_increment |
+| username     | varchar(255) | NO   | UNI | NULL    |                |
+| password     | varchar(255) | NO   |     | NULL    |                |
+| createdAt    | datetime     | NO   |     | NULL    |                |
+| authStrategy | varchar(255) | YES  |     | NULL    |                |
++--------------+--------------+------+-----+---------+----------------+
 ```
