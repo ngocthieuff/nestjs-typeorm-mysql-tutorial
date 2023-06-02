@@ -54,3 +54,15 @@ CREATE src/user/services/users/users.service.spec.ts (453 bytes)
 CREATE src/user/services/users/users.service.ts (89 bytes)
 UPDATE src/user/user.module.ts (279 bytes)
 ```
+
+### Create user
+```
+http://localhost:3000/users
+
+{
+    "username": "Ngoc",
+    "password": "123"
+}
+
+SELECT * From user;
+```
