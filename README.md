@@ -13,6 +13,9 @@ mysql> grant all on nestjs_mysql_tutorial.* to 'ngocdb';
 mac@ngoc ~ % /usr/local/mysql/bin/mysql -u ngocdb -p
 
 mysql> create database nestjs_mysql_tutorial;
+
+// view port
+mysql> SHOW GLOBAL VARIABLES LIKE 'PORT';
 ```
 
 ### Use database:
